@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sample-1",
+    "title": "Mobile App Launch Sync (from Section 8.3)",
+    "meeting_date": "2026-11-10",
+    "transcript": "[00:01] Carlos: Good morning everyone! Did everyone catch the football match yesterday evening?\n[00:02] Priya: Haha, yes Carlos, incredible game! But we should probably look at our release blockers.\n[00:03] Carlos: Right, down to business. I will update the API authentication documentation by tomorrow at 3 PM.\n[00:04] Priya: Great. Also, we really need to redesign the user onboarding illustrations before the marketing push next Friday.\n[00:05] Marcus: I can help coordinate the user testing sessions, but I haven't checked my calendar yet so I'm not sure when.\n[00:06] Carlos: Sounds like a plan. Let's reconvene on Wednesday.",
+    "expected_action_items": [
+      {
+        "task": "Update API authentication documentation",
+        "owner": "Carlos",
+        "deadline": "Tomorrow at 3 PM",
+        "confidence": "High",
+        "review_status": "Confirmed"
+      },
+      {
+        "task": "Redesign user onboarding illustrations",
+        "owner": "Unassigned",
+        "deadline": "Next Friday",
+        "confidence": "Medium",
+        "review_status": "Needs review"
+      },
+      {
+        "task": "Help coordinate user testing sessions",
+        "owner": "Marcus",
+        "deadline": "Unspecified",
+        "confidence": "Medium",
+        "review_status": "Needs review"
+      }
+    ]
+  },
+  {
+    "id": "sample-2",
+    "title": "Sprint Planning: Backend & Infra",
+    "meeting_date": "2026-11-11",
+    "transcript": "Sarah: Okay team, let's divide sprint deliverables.\nDavid: I will finish drafting the quarterly budget spreadsheet by this Thursday at 4 PM.\nSarah: Awesome. Elena, can you please review the database migration PR by Friday?\nElena: Yes, I can take care of the database migration PR.\nSarah: Also, someone needs to push the hotfix to the staging server before 8 PM tonight.\nDavid: I'll review the pull requests submitted by the intern team.\nSarah: Sounds great, that covers our sprint.",
+    "expected_action_items": [
+      {
+        "task": "Finish drafting quarterly budget spreadsheet",
+        "owner": "David",
+        "deadline": "This Thursday at 4 PM",
+        "confidence": "High",
+        "review_status": "Confirmed"
+      },
+      {
+        "task": "Review database migration PR",
+        "owner": "Elena",
+        "deadline": "Friday",
+        "confidence": "High",
+        "review_status": "Confirmed"
+      },
+      {
+        "task": "Push hotfix to staging server",
+        "owner": "Unassigned",
+        "deadline": "Tonight before 8 PM",
+        "confidence": "Medium",
+        "review_status": "Needs review"
+      },
+      {
+        "task": "Review pull requests submitted by intern team",
+        "owner": "David",
+        "deadline": "Unspecified",
+        "confidence": "Medium",
+        "review_status": "Needs review"
+      }
+    ]
+  },
+  {
+    "id": "sample-3",
+    "title": "Casual Brainstorming (Zero Action Items)",
+    "meeting_date": "2026-11-12",
+    "transcript": "Maya: That was a great presentation. We could potentially explore entering the European market next year, but honestly, sales were already strong in Asia last quarter. What do you think?\nLiam: I agree, let's keep that in mind for future discussions.\nMaya: Exactly, no immediate pressure. Let's grab some coffee.",
+    "expected_action_items": []
+  }
+]
